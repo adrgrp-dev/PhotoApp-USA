@@ -554,7 +554,7 @@ function getAddressApi()
       var json=JSON.parse(result);
       var city=json.predictions[0].terms;
       var citylength=city.length;
-      var cityval=city[citylength-2].value;
+      var cityval=city[citylength-3].value;
       get_states(cityval);
       $('#city').val(cityval);
       $('#address').val(locationTextField);
