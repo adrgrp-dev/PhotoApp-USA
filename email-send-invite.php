@@ -9,6 +9,9 @@ require 'C:\PHPMailer\src\Exception.php';
 
   
     require 'C:\PHPMailer\src\SMTP.php';
+	
+	
+	
 
     $mail = new PHPMailer(true);
     $mail->isSMTP();
@@ -30,7 +33,7 @@ require 'C:\PHPMailer\src\Exception.php';
     $mail->isHTML(true);
 	
 	
-	   $date               = '20220326';
+	   $date               = '20220401';
     $startTime          = '1500';
     $endTime            = '1530';
     $subject            = 'Fotopia Live discussion';
